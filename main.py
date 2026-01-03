@@ -33,21 +33,21 @@ import yt_dlp as youtube_dl
 
 # Initialize bot
 bot = Client("bot",
-             bot_token=BOT_TOKEN,
-             api_id=API_ID,
-             api_hash=API_HASH)
+             bot_token=7788737228:AAE5mkcUNmA7prVg5BCxcuSITF876JY4sto,
+             api_id=29393391,
+             api_hash=43054ec168b48e58c0a5766bb237f74a)
 
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
 # Constants
-OWNER_IDS = [6126688051]  # Replace with the actual owner user IDs
+OWNER_IDS = [7527143527]  # Replace with the actual owner user IDs
 
 cookies_file_path = "modules/cookies.txt"
 # Global variables
-log_channel_id = -1002288634593
+log_channel_id = -1003246215490
 authorized_users = []
 ALLOWED_CHANNEL_IDS = []
-my_name = "𝐊𝐔𝐍𝐀𝐋❤️"
+my_name = "VIKAS❤️"
 overlay = None 
 accept_logs = 0
 bot_running = False
@@ -1192,7 +1192,7 @@ async def process_links(bot, m, links, b_name, count, end_count, raw_text2, res,
                         f"**🎬 Name » ** `{name}`\n"
                         f"**🔍 Quality » ** `{raw_text2}`\n\n"
                         f"**Processing Physics Wallah (PW) videos may take some time. ⏳**\n\n"
-                        f"╰────⌈**✨ 𝐊𝐔𝐍𝐀𝐋 (@ikunalx) ✨**⌋────╯"
+                        f"╰────⌈**✨ VIKAS (@ivikasx) ✨**⌋────╯"
                     )
                 elif 'visionias' in url:
                     prog = await m.reply_text(
@@ -1363,7 +1363,7 @@ OR Use /remove_chat
 
 📌 **Note:** Commands are restricted to the bot owner or authorized users only.
 
-Feel free to contact @ikunalx for further assistance or subscription details.
+Feel free to contact @ivikasx for further assistance or subscription details.
 
 ✨ Have fun and happy chatting! ✨
 
@@ -1434,7 +1434,7 @@ OWNER_TEXT = """
 
 🚀 **General Commands:**
 
-12. **/kunal** - 💡 Type this before sending your **📃.txt** file.
+12. **/Vikas** - 💡 Type this before sending your **📃.txt** file.
 
 13. **/start** - 📛 Start the bot and receive a welcome message.
 
